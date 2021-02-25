@@ -1,12 +1,8 @@
 const http = require('http');
+const route = require('./routes.js');
 
-const server =  http.createServer();
+const server =  http.createServer(route);
 
-server.on('request',(req,res)=>{
-    res.writeHead(200,{'Content-Type':'text-plain'});
-    res.write('Hello World');
-    res.end();
-});
 
 
 server.listen(3000,()=>{
