@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-excercise",
+  "version": "1.0.0",
+  "description": "started nodejs ",
+  "main": "index.js",
+  "repository": "https://github.com/BonchayHi5/nodejs-excercise.git",
+  "author": "Bonchay Ouk <bonchayouk@gmail.com>",
+  "license": "MIT"
+}
