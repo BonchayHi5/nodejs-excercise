@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "started nodejs ",
   "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
   "repository": "https://github.com/BonchayHi5/nodejs-excercise.git",
   "author": "Bonchay Ouk <bonchayouk@gmail.com>",
   "license": "MIT",
